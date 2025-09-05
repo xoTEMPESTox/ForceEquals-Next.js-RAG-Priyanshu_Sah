@@ -62,14 +62,14 @@ API protection - include header:
 
 ```mermaid
 flowchart TD
-  U[User uploads PDF] --> E[Extract text + Chunk]
+  U[User uploads PDF] --> E[Extract text + chunk]
   E --> B[Generate embeddings]
-  B --> V[In-memory LangChain Vector Store]
+  B --> V[In-memory LangChain vector store]
   Q[User asks question] --> QE[Query embedding]
-  QE --> R[Similarity search in Vector Store]
+  QE --> R[Similarity search in vector store]
   R --> C[Top-k chunks]
-  C --> L[LLM Endpoint (OpenRouter or LM Studio)]
-  L --> A[Answer returned to User]
+  C --> L[LLM endpoint - OpenRouter / LM Studio]
+  L --> A[Answer returned to user]
 ```
 
 ## Screenshots (Demo Proof)
