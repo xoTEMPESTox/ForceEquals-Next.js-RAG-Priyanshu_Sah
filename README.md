@@ -14,7 +14,7 @@ Small app to upload a PDF and ask questions about its content. Uses a simple in-
 
    ```env
    PROTECTED_API_KEY=changeme
-   OPENROUTER_API_KEY=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
+   OPENROUTER_API_KEY=sk-or-v1-f893c55edc28dfd1786b87d3XXXXXXXXXXXXXXXXXXXXXXX860b4ce391753b930
    LM_STUDIO_ENDPOINT=http://127.0.0.1:1234/v1
    EMBEDDING_MODE=hf
    SESSION_EXPIRY_SECONDS=3600
